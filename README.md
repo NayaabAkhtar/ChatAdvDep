@@ -25,4 +25,4 @@ Here're some of the project's best features:
 
 Technologies used in the project:
 
-*   MongoDb ExpressJs ReactJs Nodejs Socket.io Multer Zustand JWT(JSON Web Token) BcryptJsShadcn
+*   MongoDb, ExpressJs, ReactJs, Nodejs, Socket.io, Multer, Zustand, JWT(JSON Web Token), BcryptJs, Shadcn
