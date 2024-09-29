@@ -1,4 +1,4 @@
-export const HOST=import.meta.env.VITE_SERVER_URL;
+export const HOST="https://chatwaveadv.onrender.com";
 
 
 export const AUTH_ROUTES = "api/auth";
