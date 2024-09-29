@@ -18,6 +18,11 @@ const app=express();
 const port=process.env.PORT || 3001
 const databaseURL=process.env.DATABASE_URL
 
+mongoose
+.connect(databaseURL)
+.then(()=> console.log("Database connected"))
+.catch((err)=> console.log(err.message))
+
 app.use(cors
     ({
         origin: process.env.ORIGIN,
@@ -49,7 +54,4 @@ const server=app.listen(port,()=>{
 
 setupSocket(server);
 
-mongoose
-.connect(databaseURL)
-.then(()=> console.log("Database connected"))
-.catch((err)=> console.log(err.message))
+
