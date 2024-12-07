@@ -1,4 +1,4 @@
-export const HOST="http://localhost:8747";
+export const HOST="https://chatwaveadv.onrender.com";
 
 
 export const AUTH_ROUTES = "api/auth";
