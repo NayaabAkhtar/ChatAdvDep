@@ -83,6 +83,8 @@ const Auth = () => {
       if(response.status===201){
         setUserInfo(response.data.user)
         navigate("/profile");
+      }else{
+        toast.error(response.data)
       }
       console.log({ response });
     }
